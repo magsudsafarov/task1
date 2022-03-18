@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+
+a{
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    padding: 0 8rem;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    margin-top: 20px;
+}
+header .all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .right a,i{
+    color: #FEFEFE;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 3px;
+    padding: 0 5px;
+}
+.right sup{
+    background-color: red;
+    font-size: 11px;
+    padding: 2px 3px 2px 3px;
+    border-radius: 10px;
+}
+#Section1{
+    background-image: url(https://themegoods-cdn-pzbycso8wng.stackpathdns.com/grandtour/demo/wp-content/uploads/2016/12/pexels-photo-225630.jpeg);
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    padding: 20rem 8rem;
+}
+#Section1 h2{
+    font-size: 56px;
+    color: #FFFFFF;
+}
+#Section1 p{
+    font-size: 25px;
+    color: #D3D2D3;
+}
+.Name-text{
+    width: 50%;
+    margin: auto
+}
+
+.inputs{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 20px
+}
+
+.inputs input, a{
+    width: 23%;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+.inputs a{
+    background-color:#ff4a52;
+    color:#F3FCFB;
+
+}
+.inputs a:hover{
+    background-color:#1EC6B6
+}
+
+
